@@ -1,0 +1,170 @@
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+p{
+    font-size: 18px;
+    
+}
+
+.title-section{
+    padding: 40px 0;
+    background-color: rgb(231, 233, 249);
+
+}
+
+.title h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xxx-large;
+    padding: 40px 0 20px 0
+}
+
+.title-section .tagline{
+    padding: 0 0 40px 0;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.title-section img{
+    width: 500px;
+}
+
+/* ------------About Me------------- */
+
+.about-me{
+    background-color: rgb(100, 68, 240);
+    color: white;
+    padding-bottom: 200px;
+}
+
+.about-me h1{
+    font-size: 35px;
+    font-weight: 100px;
+    padding-top: 40px;
+}
+.about-me p{
+    padding:20px 0;
+    font-weight: 100px;
+    font-size: 20px;
+}
+
+/* --------My work----------- */
+.my-work{
+    top: -180px;
+    position: relative;
+    
+}
+.my-work .container{
+    display: flex;
+    gap: 20px;
+}
+
+.work-fontAwesome{
+    font-size:100px;
+    padding: 40px;
+    /* transform: ; */
+}
+.my-work .work{
+    width: 500px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+.my-work .work .programming-language{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.work li{
+    padding: 5px;
+}
+
+.work div{
+    padding: 10px;
+}
+
+.work .experience ol{
+    text-align: left;
+    padding-top: 20px;
+}
+
+.work .experience ol li{
+    padding: 0;
+}
+
+/* -------------Portfolio-------------- */
+.portfolio{
+    padding-bottom:60px;
+    background-color: rgb(231, 233, 249);
+    padding-top: 20px;
+}
+
+.portfolio .recent-projects h1{
+    padding-top: 30px;    
+}
+
+.portfolio .projects .project-cards{
+    display: flex;
+    gap: 30px;
+    justify-content:center;
+}
+.recent-projects{
+    padding-bottom: 80px;
+}
+/* ---------------Experience------------ */
+.experiences{
+    background-color: rgb(231, 233, 249);
+}
+.experiences ol {
+    list-style-type: none;
+    text-align: left;
+    /* width: 600px; */
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.experiences div{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 32px;
+}
+
+.experiences div+div{
+    padding:0 0 20px 32px;
+
+}
+
+.experiences .container>*{
+    padding-bottom: 50px;
+}
+/* .experience{
+    padding-bottom: 50px;
+} */
+
+/* ---------------Education------------- */
+.education{
+    padding: 40px 0;
+    background-color: rgb(231, 233, 249);
+
+}
+
+.education h1{
+    padding-bottom: 10px;
+}
+.academic, .professional-year{
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+

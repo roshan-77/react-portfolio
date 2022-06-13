@@ -1,0 +1,53 @@
+/* -----------Social media links--------- */
+.contact-links{
+    /* position: absolute; */
+    /* left:-500px; */
+    bottom: 30px;
+    position: fixed;
+    padding: 20px;
+    font-size: 30px;
+    /* float: left; */
+    /* position: relative; */
+    /* bottom:5% */
+}
+
+
+.contact-links ol{
+    /* position: relative; */
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    /* left:-500px; */
+
+}
+
+.contact-links ol li{
+    padding: 10px;
+
+}
+
+.contact-links ol li .social-icon{
+    color:black;
+
+}
+
+/* --------Contact-me, Footer---------- */
+
+.contact-me, .footer{
+    background-color: rgb(100, 68, 240);
+    color:white;
+    padding: 20px 0;
+}
+
+.contact-me .get-in-touch{
+    padding-bottom: 20px;
+}
+
+ul li, .footer{
+    list-style-type:none;
+    font-size: 20px;
+}
+
+.find-me-on .left-arrow{
+    font-size: 50px;
+}

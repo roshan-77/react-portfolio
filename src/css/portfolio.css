@@ -1,0 +1,6 @@
+
+.portfolio-background{
+    background-image: url("../images/portfolio-image.jpg");
+    background-size: cover;
+    background-position: center;
+}

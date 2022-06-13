@@ -1,0 +1,14 @@
+.project-card{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.project-img img{
+    width: 40vw;
+    /* height: auto; */
+}
+
+.project-description{
+    width: 40vw;
+}
