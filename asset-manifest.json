@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.bd96c810.css",
-    "main.js": "/react-portfolio/static/js/main.e83a2830.js",
-    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/weatherApp.jpg": "/react-portfolio/static/media/weatherApp.c3f7dbf7f3fcf48c82a7.jpg",
-    "static/media/redditApi.jpg": "/react-portfolio/static/media/redditApi.f5a04952240c54f6ccac.jpg",
-    "static/media/bookstore.png": "/react-portfolio/static/media/bookstore.968a2b940631e6fad466.png",
-    "static/media/todolist.jpg": "/react-portfolio/static/media/todolist.a00f2095081d1aa984b7.jpg",
-    "static/media/portfolio-image.jpg": "/react-portfolio/static/media/portfolio-image.3e16598970aaf2716fe7.jpg",
-    "static/media/profile.jpg": "/react-portfolio/static/media/profile.d21e5df0bc71eef47ec2.jpg",
-    "static/media/SanPhotofactory.png": "/react-portfolio/static/media/SanPhotofactory.d67e6fe7ad0229cbce20.png",
-    "static/media/RoshanResume.docx": "/react-portfolio/static/media/RoshanResume.bab174da9703160f62a6.docx",
-    "index.html": "/react-portfolio/index.html",
-    "main.bd96c810.css.map": "/react-portfolio/static/css/main.bd96c810.css.map",
-    "main.e83a2830.js.map": "/react-portfolio/static/js/main.e83a2830.js.map",
-    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/static/css/main.b614f5a1.css",
+    "main.js": "/static/js/main.65e4f490.js",
+    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "static/media/weatherApp.jpg": "/static/media/weatherApp.c3f7dbf7f3fcf48c82a7.jpg",
+    "static/media/redditApi.jpg": "/static/media/redditApi.f5a04952240c54f6ccac.jpg",
+    "static/media/bookstore.png": "/static/media/bookstore.968a2b940631e6fad466.png",
+    "static/media/todolist.jpg": "/static/media/todolist.a00f2095081d1aa984b7.jpg",
+    "static/media/portfolio-image.jpg": "/static/media/portfolio-image.3e16598970aaf2716fe7.jpg",
+    "static/media/profile.jpg": "/static/media/profile.d21e5df0bc71eef47ec2.jpg",
+    "static/media/SanPhotofactory.png": "/static/media/SanPhotofactory.d67e6fe7ad0229cbce20.png",
+    "static/media/RoshanResume.docx": "/static/media/RoshanResume.bab174da9703160f62a6.docx",
+    "index.html": "/index.html",
+    "main.b614f5a1.css.map": "/static/css/main.b614f5a1.css.map",
+    "main.65e4f490.js.map": "/static/js/main.65e4f490.js.map",
+    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd96c810.css",
-    "static/js/main.e83a2830.js"
+    "static/css/main.b614f5a1.css",
+    "static/js/main.65e4f490.js"
   ]
 }
