@@ -1,14 +1,13 @@
 // http://www.emilyridge.ie/
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import {BrowserRouter as Router, Routes, Route, Switch, Link} from 'react-router-dom';
+import {HashRouter as Router, Routes, Route} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Home } from "../Components/home";
 import { Portfolio } from "../Components/portfolio";
 import { ProjectDescription } from "../Components/projectDescription";
 import startupprojects from '../Api/startup-projects'
 import projects from '../Api/projects-list'
-
 
 export function Navigation(){
     return(
@@ -27,15 +26,15 @@ export function Navigation(){
              </Navbar>
 
              <Routes>
-                <Route path="/" element={<Home />}>Home</Route>
-                <Route path="/portfolio" element={<Portfolio/>}></Route>
+                <Route  path="/" element={<Home />}>Home</Route>
+                <Route  path="portfolio" element={<Portfolio/>}></Route>
                 {startupprojects.map((project)=>{
-                    return <Route path={project.title} element={<ProjectDescription prop={project} />}></Route>                
+                    return <Route  path={project.title} element={<ProjectDescription prop={project} />}></Route>                
                 })}
                 {projects.map((project)=>{
-                    return <Route path={project.title} element={<ProjectDescription prop={project} />}></Route>                
+                    return <Route  path={project.title} element={<ProjectDescription prop={project} />}></Route>                
                 })}
-                <Route path="/contact">Contact</Route>
+                {/* <Route exact path="/contact">Contact</Route> */}
 
              </Routes>
          </Router>

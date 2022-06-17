@@ -6,6 +6,7 @@ import { faCode, faMagnifyingGlass, faCheck } from '@fortawesome/free-solid-svg-
 import projects from '../Api/projects-list'
 import startupprojects from '../Api/startup-projects'
 import ProjectCard from './projectCard'
+import resume from '../resume/RoshanResume.docx'
 
 export function Home({prop}){
     return(
@@ -16,6 +17,9 @@ export function Home({prop}){
                 <div className="title"><h1>Web Developer and Software Tester</h1></div>
                 <div className='tagline'>I design and code things to look amazing, and I love what I do</div>
                 <div className="img" ><img src={profile} alt="my avatar" style={{width:"300px", borderRadius:"50%"}}/></div>
+                <div style={{marginTop: "20px"}}> 
+                    <a href={resume} download><button className='btn btn-primary'>Download Resume</button></a>
+                </div>
                 </section>
                 
             </section>
@@ -140,10 +144,20 @@ export function Home({prop}){
                         </ol>
                     </div>
                     <div className = "experience" id="experience2">
-                        <div><b> Nakshatra Techno Hub (March 2022 - Present)</b></div>
+                        <div><b> Nakshatra Techno Hub (February 2022 - Present)</b></div>
                         <div><b> FrontEnd Developer</b></div>
                         <ol>
-                            <li><FontAwesomeIcon icon={faCheck}/> Beinging UX/UI design into life.</li>
+                            <li><FontAwesomeIcon icon={faCheck}/> Bringing UX/UI design into life.</li>
+                            <li><FontAwesomeIcon icon={faCheck}/> Writing well-designed, testable, efficient code by using best software development practices.</li>
+                            <li><FontAwesomeIcon icon={faCheck}/> Creating website layout/user interface using standard HTML/CSS.</li>
+                            <li><FontAwesomeIcon icon={faCheck}/> Integrating data from various back-end services and databases.</li>
+                            <li><FontAwesomeIcon icon={faCheck}/> Gathering and refining specifications and requirements based on technical needs.</li>
+                            <li><FontAwesomeIcon icon={faCheck}/> Creating and maintaining software documentation.</li>
+                            <li><FontAwesomeIcon icon={faCheck}/> Responsible for maintaining, expanding, and scaling the website.</li>
+                            <li><FontAwesomeIcon icon={faCheck}/> Cooperating with web designers to match visual design intent.</li>
+                            <li><FontAwesomeIcon icon={faCheck}/> Working with API and fetching data.</li>
+                            <li><FontAwesomeIcon icon={faCheck}/> Using version control software to collaborate with other team members.</li>
+
                         </ol>
                     </div>
                 </section>
