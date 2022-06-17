@@ -30,8 +30,8 @@ function ProjectCard({project}){
                     <div>
                         <h3 className="text-white fs-5">{project.title}</h3>
 						<p>For more information, please click on the buttons below.</p>
-                        <Button variant="info" href={project.title}>Description</Button>
-                        <Button variant="success" href={project.website} target="_blank">Visit Website</Button>
+                        <Button variant="info" href={`#/${project.title}`}>Description</Button>
+                        <Button variant="success" href={`#/${project.website}`} target="_blank">Visit Website</Button>
                     </div>
                 </div>
             </div>

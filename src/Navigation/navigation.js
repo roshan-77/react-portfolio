@@ -19,7 +19,7 @@ export function Navigation(){
                 <Nav className="me-auto" style={{fontSize:"20px"}}>
                   <Nav.Link href="#/" style={{color:"white"}}>Home</Nav.Link>
                   <Nav.Link href="#/portfolio" style={{color:"white"}}>Portfolio</Nav.Link>
-                  <Nav.Link href="#/#contact-links" style={{color:"white"}}>Contact</Nav.Link>
+                  <Nav.Link href="#contact-links" style={{color:"white"}}>Contact</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
                 </Container>
